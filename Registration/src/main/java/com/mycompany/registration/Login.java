@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.registration;
+import java.util.Scanner;
 
 /**
  *
@@ -13,12 +14,17 @@ public class Login {
     private String Username;
     private String Password;
     private String Cellnumber;
+    boolean checkPassword;
     
     public Login(String Username, String Password, String Cellnumber) {
         this.Username = Username;
         this.Cellnumber = Cellnumber;
         this.Password = Password;
         
+    }
+
+    Login() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     public boolean checkUsername(){
@@ -99,6 +105,22 @@ public class Login {
         } else {
             return "Username or password incorrect, please try again.";
         }
+    }
+
+    boolean checkUserName(String username) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    boolean checkPasswordComplexity(String password) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    boolean checkCellPhoneNumber(String phone) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    boolean loginUser(String username, String password, String enteredUsername, String enteredPassword) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
           
          

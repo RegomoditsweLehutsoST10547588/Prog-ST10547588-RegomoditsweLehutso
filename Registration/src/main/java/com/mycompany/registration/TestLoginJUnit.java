@@ -5,7 +5,7 @@
 package com.mycompany.registration;
 
 /**
- *
+ p*
  * @author Student
  */
 public class TestLoginJUnit {
